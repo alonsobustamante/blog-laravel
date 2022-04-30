@@ -99,6 +99,6 @@ class CategoryController extends Controller
     {
         $category->delete();
 
-        return redirect()->route('admin.categories.index')->with('info', 'La categoria se elimino con exito.');;
+        return redirect()->route('admin.categories.index')->with('info', 'La categoria se elimino con exito.');
     }
 }
