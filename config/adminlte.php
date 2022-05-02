@@ -45,7 +45,7 @@ return [
     |
     */
 
-    'logo' => '<b>Coders</b>FREE',
+    'logo' => '<b>ElOso</b>JUDIO',
     'logo_img' => 'vendor/adminlte/dist/img/AdminLTELogo.png',
     'logo_img_class' => 'brand-image img-circle elevation-3',
     'logo_img_xl' => null,
