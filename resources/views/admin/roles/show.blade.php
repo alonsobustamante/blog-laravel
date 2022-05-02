@@ -1,9 +1,9 @@
 @extends('adminlte::page')
 
-@section('title', 'Coders Free')
+@section('title', 'Dashboard')
 
 @section('content_header')
-    <h1>Mostrar Detalle de Categoria</h1>
+    <h1>Detalle de Rol</h1>
 @stop
 
 @section('content')

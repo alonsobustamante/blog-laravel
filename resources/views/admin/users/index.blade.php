@@ -1,13 +1,13 @@
 @extends('adminlte::page')
 
-@section('title', 'Coders Free')
+@section('title', 'Dashboard')
 
 @section('content_header')
-    <h1>Mostrar Detalle de Categoria</h1>
+    <h1>Lista de Usuarios</h1>
 @stop
 
 @section('content')
-    <p>Welcome to this beautiful admin panel.</p>
+    @livewire('admin.users-index')
 @stop
 
 @section('css')
