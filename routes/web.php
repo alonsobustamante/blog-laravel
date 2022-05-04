@@ -3,6 +3,17 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PostController;
 
+
+// Route::get('/auth/redirect', function () {
+//     return Socialite::driver('facebook')->redirect();
+// });
+
+// Route::get('/auth/callback', function () {
+//     $user = Socialite::driver('facebook')->user();
+
+//     // $user->token
+// });
+
 Route::get('/', [PostController::class, 'index'])->name('posts.index');
 
 Route::get('posts/{post}', [PostController::class, 'show'])->name('posts.show');
@@ -23,3 +34,8 @@ Route::middleware([
         return view('dashboard');
     })->name('dashboard');
 });
+
+
+
+
+
